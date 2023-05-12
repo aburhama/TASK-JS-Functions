@@ -4,6 +4,11 @@
  * - that just prints your name on the screen
  */
 
+function printName (){
+const name = ("abdulrahman");
+console.log (name);
+}
+printName();
 /**
  * Task 2:
  * Create a function named `printAge`
@@ -11,6 +16,11 @@
  * - and prints the age on the screen.
  * - Age = current year - birth
  */
+function printAge (birthYear){
+    let age = 2023 - birthYear;
+    console.log (age);
+    }
+    printAge(1986);
 
 /**
  * Task 3:
@@ -22,6 +32,23 @@
  * -- fr: it should print `Bonjour NAME`
  * -- tr: it should print `Merhaba NAME`
  */
+
+
+ /** My CODE
+    function printHello(name, language){
+    if language (en);
+        console.log (`Hello ${name}`);
+        else "false"
+    }
+/**  
+    else if language == 'es':
+        print ('Hola', name)
+    else language == 'fr':
+        print ('Bonjour', name)
+    else language == 'tr':
+        print ('Merhaba', name)
+}
+printHello(en);
 
 /**
  * Task 4:
